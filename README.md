@@ -5,7 +5,7 @@ This will print out any symbols that the kernel module wants to import, but that
 If all symbols are supported then nothing wil be printed out.
 
 Usage is just:
-        nes_test_imports.sh <kernel module filename>
+```nes_test_imports.sh <kernel module filename>```
 
 So for example:
    nes_test_imports.sh clovercon.ko
