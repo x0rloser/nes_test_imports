@@ -1,3 +1,5 @@
+#!/bin/bash
+
 if [[ $# -ne 1 ]]; then
   echo "Usage: nes_test_imports.sh <kernel module filename>"
   exit
